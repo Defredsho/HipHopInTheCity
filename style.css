@@ -34,6 +34,7 @@ ul {
 	align-items: center;
 	height: 50px;
 	padding: 20px 0;
+	background: #0F0808;
 }
 
 .nav-brand {
@@ -61,6 +62,7 @@ ul {
 /* SHOWCASE */
 hr {
 	margin: 10px 0;
+	background: #0F0808;
 }
 .showcase {
 	width: 100%;
@@ -85,4 +87,20 @@ hr {
 }
 .btn:hover { 
 	opacity: .6;
+}
+.encabezado h3 {
+	text-align: center;
+	font-family: 'Oswald';
+	font-size: 30px;
+	padding: 50px 0;
+}
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 25px;
+}
+.cards iframe {
+	width: 100%;
+	height: 200px;
+
 }
